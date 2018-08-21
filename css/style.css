@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Indie Flower';
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+nav.black{
+    background: rgba(0,0,0,.8);
+    padding: 10 100px;
+    height: 100px;
+    
+  
+
+}
+
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    font-size: 24px;
+    transition: .3s;
+    display: flex;
+    float: left;
+    color: #e2481f;
+}
+
+nav .logo .black{
+    color: #ffffff;
+}
+
+nav ul{
+
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+nav ul li{
+    margin-top: 5%;
+}
+nav ul li a{
+    color: #ffffff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+nav ul li a:hover{
+    background: #e2481f;
+    color: #ffffff;
+}
+
+nav .black ul li a{
+    color: #ffffff; 
+}
+nav ul li a:focus{
+    outline: none;
+}
+nav ul li a.active{
+    background: #e2481f;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+section.sec1{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content p{
+    width: 80%;
+    margin: 30px auto;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
